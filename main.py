@@ -11,5 +11,7 @@ def pageadmine(admin):
     return flask.render_template('5.html')  
 @q.route('/page<name>')
 def name(name):
-    return f'{name} amad'  
-q.run()  
+    return f'{name} amad' 
+
+if __name__=='__main__': 
+    q.run()  
